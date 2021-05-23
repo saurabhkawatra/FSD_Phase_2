@@ -134,7 +134,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\saura\Desktop\Phase 2 Workspace\Eclipse Enterprise Phase 2 work space\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\saura\Desktop\Phase 2 Workspace\Eclipse Enterprise Phase 2 work space\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Phase2project" path="/Phase2project" reloadable="true" source="org.eclipse.jst.jee.server:Phase2project"/></Host>
+      <Context docBase="C:\Users\saura\Desktop\Phase 2 Workspace\Eclipse Enterprise Phase 2 work space\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\saura\Desktop\Phase 2 Workspace\Eclipse Enterprise Phase 2 work space\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\DayThree-WebProject-Servlets" path="/DayThree-WebProject-Servlets" reloadable="true" source="org.eclipse.jst.jee.server:DayThree-WebProject-Servlets"/></Host>
     </Engine>
   </Service>
 </Server>
