@@ -1,0 +1,48 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<welcome-file-list>
+	<welcome-file>login.jsp</welcome-file>
+	
+	</welcome-file-list>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>application</servlet-name>
+  	<display-name>application</display-name>
+  	<description></description>
+  	<servlet-class>com.saurabh.utils.application</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>loginservlet</servlet-name>
+  	<display-name>loginservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.saurabh.utils.loginservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>logoutservlet</servlet-name>
+  	<display-name>logoutservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.saurabh.utils.logoutservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>application</servlet-name>
+  	<url-pattern>/application</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  <servlet-name>application</servlet-name>
+  <url-pattern>/application/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>loginservlet</servlet-name>
+  	<url-pattern>/loginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>logoutservlet</servlet-name>
+  	<url-pattern>/logoutservlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+</web-app>

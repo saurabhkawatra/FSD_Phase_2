@@ -11,4 +11,24 @@
     <servlet-name>firstservlet</servlet-name>
     <url-pattern>/MyServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DemoOneServlet</display-name>
+    <servlet-name>DemoOneServlet</servlet-name>
+    <servlet-class>saurabh.DemoOneServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DemoOneServlet</servlet-name>
+    <url-pattern>/DemoOneServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DemoTwoServlet</display-name>
+    <servlet-name>DemoTwoServlet</servlet-name>
+    <servlet-class>saurabh.DemoTwoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DemoTwoServlet</servlet-name>
+    <url-pattern>/DemoTwoServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

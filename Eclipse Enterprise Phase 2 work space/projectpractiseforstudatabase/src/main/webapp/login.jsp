@@ -27,14 +27,13 @@
   <h2 align="center" style="background-color:lightgreen;border-radius: 30px;color:black;font-size:200%">Administrator Login</h2>
   <form action="dashboard" method="post">
 		<div class="avatar">
-      <img src="user img.png">
+      <img src="userimg.png">
 		</div>
 		<input type="text" name="username" placeholder="username" required>
 		<div class="bar">
 			<i></i>
 		</div>
 		<input type="password" name="password" placeholder="password" required>
-		<a href="" class="forgot_link">forgot ?</a>
 		<button type="submit">Sign in</button>
 		</form>
 	</div>
